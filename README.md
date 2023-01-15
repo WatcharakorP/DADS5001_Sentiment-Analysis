@@ -14,7 +14,7 @@ Sentiment analysis helps to monitor brand and product sentiment in customer feed
 * Collected data from comment of youtube livestream
 * Sentiment data and Storage data into MySql database
 * Visualized the streamed by Grafana
-
+![image](https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/main/Diagram.jpg)
 
 ## ✨Model Performance:
 This project will be using library from Hugging Face to sentimental analysis.<br>
