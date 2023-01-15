@@ -1,5 +1,5 @@
 # DADS5001_Sentiment-Analysis
-Sentiment Analysis of Livestream on Youtube
+
 
 ![image](https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/main/header_project.JPG)
 
