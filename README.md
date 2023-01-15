@@ -21,7 +21,10 @@ Sentiment analysis helps to monitor brand and product sentiment in customer feed
 
 ## 📝 Source code:
 
-  ![code](https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/b7a6fdd07a081e2c1dcf803453ed859cec842327/Sentiment%20Analysis%20of%20Livestream%20on%20Youtube.ipynb)
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 ## 📉 Visualization:
 
