@@ -17,8 +17,7 @@ Sentiment analysis helps to monitor brand and product sentiment in customer feed
 ![image](https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/main/Diagram.jpg)
 
 ## ✨Model Performance:
-  This project will be using library from Hugging Face to sentimental analysis.<br>
- To determine whether comment on youtube is positive or negative 
+  This project will be using library from  **`Hugging Face`** to sentimental analysis.To determine whether comment on youtube is positive or negative 
 
 ## 📝 Source code:
 
