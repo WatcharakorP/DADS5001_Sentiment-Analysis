@@ -1,5 +1,6 @@
 # DADS5001_Sentiment-Analysis
 Sentiment Analysis of Livestream on Youtube
+![image](https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/main/header_project.JPG)
 
 ## 🚩 Introduction: 
 * **`Livestreaming`** is streaming media simultaneously recorded and broadcast in real-time over the Internet.<br>
