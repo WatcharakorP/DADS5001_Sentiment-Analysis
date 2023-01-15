@@ -21,8 +21,8 @@ This project will be using library from Hugging Face to sentimental analysis.<br
 To determine whether comment on youtube is positive or negative 
 
 ## 📝 Source code:
-https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/f3f8aea13c2bba23ac83fe76814f0c54f3aca345/Sentiment%20Analysis%20of%20Livestream%20on%20Youtube.ipynb
 
+https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/b7a6fdd07a081e2c1dcf803453ed859cec842327/Sentiment%20Analysis%20of%20Livestream%20on%20Youtube.ipynb
 
 ## 📉 Visualization:
 
