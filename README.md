@@ -22,8 +22,62 @@ Sentiment analysis helps to monitor brand and product sentiment in customer feed
 ## 📝 Source code:
 
 ```python
-s = "Python syntax highlighting"
-print s
+import pytchat
+import mysql.connector
+from transformers import pipeline
+#from colorama import Fore,Style
+
+def insertMySql(datetime,author,message,sentiment,score,ct_sentiment,ct_comment):
+
+    cnx = mysql.connector.connect(user='sql6589589', password='DDFzTtZehi',host='sql6.freesqldatabase.com',database='sql6589589')
+
+    cursor = cnx.cursor()
+
+    add_record = ("INSERT INTO youtube_liveChat "
+                "( datetime, author, message, sentiment, score, ct_sentiment, ct_comment) "
+                "VALUES ( '"+datetime+"', '"+author+"', '"+message+"', '"+sentiment+"', '"+score+"','"+ct_sentiment+"','"+ct_comment+"')")
+    
+
+    # Insert new employee
+    cursor.execute(add_record)
+    
+    cnx.commit()
+
+    cursor.close()
+    cnx.close()   
+    print("Saved to Database") 
+
+
+def main():
+
+    classifier = pipeline('sentiment-analysis')
+
+    chat = pytchat.create(video_id="LCb27GWfK6o")
+
+    x=1
+    y=1
+    z=1
+
+    while chat.is_alive():
+        for c in chat.get().sync_items():
+            #print(f'{c.datetime} {c.author.name} {c.message}')
+            sentiment = classifier(c.message)
+            mylist = sentiment[0]
+            score = mylist['score']
+            sentclass = mylist['label']
+            
+            if(sentclass == "NEGATIVE"):
+                print(f'authort: {c.author.name} sent: {c.message} score: {score} sentiment: {sentclass}')
+                insertMySql(str(c.datetime), str(c.author.name), str(c.message), str(sentclass), str(score), str(x), str(z))
+                x += 1
+            else:
+                print(f'authort: {c.author.name} sent: {c.message} score: {score} sentiment: {sentclass}')
+                insertMySql(str(c.datetime), str(c.author.name), str(c.message), str(sentclass), str(score), str(y), str(z))
+                y += 1
+            z += 1
+
+if __name__ == "__main__":
+    main()
 ```
 
 ## 📉 Visualization:
