@@ -81,6 +81,7 @@ if __name__ == "__main__":
 ```
 
 ## 📉 Visualization:
+![image](https://github.com/WatcharakorP/DADS5001_Sentiment-Analysis/blob/main/grafana%20visualization.JPG)
 
 
 ## 🙋Member:
