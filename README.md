@@ -25,6 +25,9 @@ To determine whether comment on youtube is positive or negative
 ## 📉 Visualization:
 
 
+## 🙋Member:
+ **`6420422006`**  | 👦 Watcharakorn Pasanta 
+
 ## End credit: 
 **This project is a part of Course DADS5001, Data Analytics and Data Science, NIDA.**
 
