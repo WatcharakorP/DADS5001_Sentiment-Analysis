@@ -29,7 +29,7 @@ from transformers import pipeline
 
 def insertMySql(datetime,author,message,sentiment,score,ct_sentiment,ct_comment):
 
-    cnx = mysql.connector.connect(user='sql6589589', password='DDFzTtZehi',host='sql6.freesqldatabase.com',database='sql6589589')
+    cnx = mysql.connector.connect(user='sqlxxxxx', password='xxxxxx',host='sql6.freesqldatabase.com',database='sqlxxxx')
 
     cursor = cnx.cursor()
 
